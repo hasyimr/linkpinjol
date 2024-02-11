@@ -18,5 +18,6 @@ submitButton.addEventListener("click", (event) => {
     var nextSection = document.getElementById("hero");
     nextSection.scrollIntoView({ behavior: 'smooth', inline: 'start' });
     document.body.style.overflowY = "scroll";
+    document.documentElement.style.overflowY = "scroll";
 
 }
