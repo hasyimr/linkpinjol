@@ -7,9 +7,16 @@ submitButton.addEventListener("click", (event) => {
     if (name == "keisya") {
         headerName.innerHTML = "Full name please, there are a lot of keisya in this world and this is only for the one that special to Hasyim.";
       } else if (name == "keisya bilqis alhena") {
-        window.location.href = "/secreto.html";
+        scrollToNextSection();
       } else {
         headerName.innerHTML = "You're not welcome";
       }
     
   });
+
+  function scrollToNextSection() {
+    var nextSection = document.getElementById("hero");
+    nextSection.scrollIntoView({ behavior: 'smooth', inline: 'start' });
+    document.body.style.overflowY = "scroll";
+
+}

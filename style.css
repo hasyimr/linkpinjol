@@ -3,6 +3,8 @@
 body {
     background-color: pink;
     margin: 0;
+    height: 100%;
+    overflow-y: hidden;
     padding: 0;
     text-align: center;
     font-family: 'Gochi Hand', cursive;
@@ -10,11 +12,16 @@ body {
 }
 
 header {
-    margin-top: 10em;
+    margin-top: 3em;
+    margin-bottom: 25em;
     overflow-x: scroll;
     overflow-x: hidden;
     height: 100%;
     width: 100%;
+}
+
+header h1 {
+    font-size: 4em;
 }
 
 .login-container {
@@ -25,10 +32,11 @@ header {
     margin-top: 10em;
     margin-bottom: 2em;
     border-width: 0px 0px 1px 0px;
+    border-color: rgb(238, 82, 108);
     background-color: pink;
     width: 20em;
     color: rgb(238, 46, 78);
-    font-size: 1em;
+
 
 
 }
@@ -47,7 +55,28 @@ header {
     outline: none;
     color: white;
     background-color: rgb(252, 100, 125);
-    margin-bottom: 10em;
+    margin-bottom: 3em;
+}
+
+.hero {
+    
+    color: #FF56A7;
+    padding: 3em;
+    padding-top: 10em;
+    padding-bottom: 0;
+    background-color: #FFE0ED;
+}
+
+.hero h1 {
+    font-size: 4em;
+}
+
+.hero p {
+    font-size: 2em;
+}
+
+.hero img {
+    width: 100%;
 }
 
 
