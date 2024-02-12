@@ -1,5 +1,7 @@
 var submitButton = document.getElementById("submit")
 var headerName = document.getElementById("name")
+var messagesButton = document.getElementById("messagesbutton")
+var messagesId = document.getElementById("messagesp")
 
 
 submitButton.addEventListener("click", (event) => {
@@ -20,4 +22,14 @@ submitButton.addEventListener("click", (event) => {
     document.body.style.overflowY = "scroll";
     document.documentElement.style.overflowY = "auto";
 
-}
+};
+
+
+
+messagesButton.addEventListener("click", ubahSize);
+
+function ubahSize() {
+  messagesId.style.fontSize = "5em";
+  messagesId.style.fontFamily = "'Caveat Brush', cursive";
+  messagesId.style.marginBottom = "1em"
+};

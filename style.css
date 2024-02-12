@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400;500;600;700&family=Poppins&display=swap');
 
+:root{
+    --primary: #fff;
+    --bg-color: rgb(5, 53, 61);
+    --bg-envelope-color: #f5edd1;
+    --envelope-tab: #ecdeb8;
+    --envelope-cover: #e6cfa7;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --txt-color: #444;
+    --heart-color: rgb(252, 8, 231);
+  }
+
 html {
     overflow-y: hidden;
 }
@@ -21,6 +32,12 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
+h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 2em; 
+}
+
 header {
     margin-top: 1em;
     margin-bottom: 25em;
@@ -28,6 +45,10 @@ header {
     overflow-x: hidden;
     height: 100%;
     width: 100%;
+}
+
+h1 {
+    font-size: 4em;
 }
 
 header h1 {
@@ -147,5 +168,76 @@ header h1 {
     line-height: 0%;
 }
 
+.survey {
+    background-color: #FFE0ED;
+    color: #FF56A7;
+    padding: 3em;
+}
 
+.survey h1 {
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+
+.survey p {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.survey a {
+    color: white;
+    background-color: #FF56A7;
+    text-decoration: none;
+    padding-inline: 2em;
+    padding-block: 1em;
+    border-radius: 15px;
+
+}
+
+.playlist {
+    background-color: #353535;
+    color: #FF56A7;
+    padding: 3em;
+}
+
+.playlist h1 {
+    font-size: 4em;
+}
+
+.moments {
+    background-color: white;
+    color: #FF56A7;
+    padding: 3em;
+}
+
+.moments img {
+    width: 100%;
+}
+
+.messages {
+    background-color: #FF56A7;
+    color: #ffffff;
+    padding: 3em;
+}
+
+.messages p {
+    font-size: 3px;
+    margin-bottom: 1000px;
+}
+
+#messagesbutton {
+    padding-inline: 1.5em;
+    padding-block: 1em;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: #FF56A7;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 3em;
+}
+
+/* cuaks */
 
