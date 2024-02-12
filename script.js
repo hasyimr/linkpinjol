@@ -7,11 +7,11 @@ var messagesId = document.getElementById("messagesp")
 submitButton.addEventListener("click", (event) => {
     var name = document.getElementById("searchTxt").value.toLowerCase();
     if (name == "keisya") {
-        headerName.innerHTML = "Full name please, there are a lot of keisya in this world and this is only for the one that special to Hasyim.";
-      } else if (name == "keisya bilqis alhena" || name == "a") {
+        headerName.innerHTML = "Nama lengkap ya gais ya, ada banyak nama Keisya di dunia ini dan hanya ada satu yang special buat Hasyim mah";
+      } else if (name == "keisya bilqis alhena") {
         scrollToNextSection();
       } else {
-        headerName.innerHTML = "You're not welcome";
+        headerName.innerHTML = "Lu siapa cok, kaga spesial elu buat gua";
       }
     
   });
