@@ -13,7 +13,7 @@ submitButton.addEventListener("click", (event) => {
         scrollToNextSection();
 
       } else {
-        headerName.innerHTML = "Lu siapa cok, kaga spesial elu buat gua";
+        headerName.innerHTML = `${name} siapa cok, kaga spesial elu buat gua`;
       }
     
   });
