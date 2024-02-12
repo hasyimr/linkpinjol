@@ -127,6 +127,7 @@ header h1 {
 
 .about p {
     margin-top: 4em;
+    color: #353535;
 }
 
 .like {
@@ -143,6 +144,21 @@ header h1 {
 .like h2 {
     font-family: 'Caveat', cursive;
     font-size: 2em;
+}
+
+.like h2:last-of-type {
+    margin-bottom: 2em;
+}
+
+
+
+.like-button {
+    color: #FF56A7;
+    background-color: white;
+    text-decoration: none;
+    padding-inline: 2em;
+    padding-block: 1em;
+    border-radius: 15px;
 }
 
 .last {
@@ -166,6 +182,10 @@ header h1 {
     margin: 0 auto;
     transform:  translateY(100%);
     line-height: 0%;
+}
+
+.last p {
+    color: #353535;
 }
 
 .survey {
@@ -214,6 +234,14 @@ header h1 {
     width: 100%;
 }
 
+.moments h2 {
+    font-size: 3em;
+}
+
+.moments p {
+    color: #353535;
+}
+
 .messages {
     background-color: #FF56A7;
     color: #ffffff;
@@ -221,8 +249,8 @@ header h1 {
 }
 
 .messages p {
-    font-size: 3px;
-    margin-bottom: 1000px;
+    font-size: 1.5px;
+    margin-bottom: 500px;
 }
 
 #messagesbutton {
@@ -238,6 +266,7 @@ header h1 {
     background-color: rgb(255, 255, 255);
     margin-bottom: 3em;
 }
+
 
 /* cuaks */
 

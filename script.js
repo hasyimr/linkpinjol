@@ -6,10 +6,12 @@ var messagesId = document.getElementById("messagesp")
 
 submitButton.addEventListener("click", (event) => {
     var name = document.getElementById("searchTxt").value.toLowerCase();
+    var header = document.getElementById("header")
     if (name == "keisya") {
         headerName.innerHTML = "Nama lengkap ya gais ya, ada banyak nama Keisya di dunia ini dan hanya ada satu yang special buat Hasyim mah";
       } else if (name == "keisya bilqis alhena") {
         scrollToNextSection();
+
       } else {
         headerName.innerHTML = "Lu siapa cok, kaga spesial elu buat gua";
       }
